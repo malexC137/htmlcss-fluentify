@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section {
+
+}
+
+.container {
+    width: 1024px;;
+    margin: auto;
+    position: relative;
+}
+
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+.nav-left ul li {
+    float: left;
+    display: inline;
+    padding: 40px 10px;
+    text-transform: uppercase;
+    font-size: 11px;
+    color: white;
+}
+
+.nav-right ul li {
+    float: right;
+    display: inline;
+    padding: 40px 10px;
+    text-transform: uppercase;
+    font-size: 11px;
+    color: white;
+
+
+}
+
+.logo {
+    float: left;
+    height: 100px;
+    width: 140px;
+    /* padding-top: 5px; */
+}
+
+.logo img {
+    padding-top: 20px;
+}
+
+.button {
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 10px;
+    border-color: white;
+    color: white;
+}
+
+.button.one {
+    background-color: lightgreen;
+    border: none;
+}
+
+.hero-section {
+    background-color: #37537a;
+    height: 400px;
+    
+}
+
+.hero-section {
+    position: relative;
+    
+}
+.hero-section img {
+    position: absolute;
+    bottom: 0;
+    right: -4%;
+    width: 70%;
+}
+
+.hero-left {
+    height: 400px;
+    width: 50%;
+}
+
+.hero-button {
+    background-color: lightgreen;
+    border-radius: 5px;
+    padding: 30px;
+    color: white;
+    border: none;
+    position: relative;
+    top: 100px;
+    left: 2px;
+}
+
+.hero-left h1 {
+    color: white;
+    position: relative;
+    top: 20%;
+    font-size: 40px;
+}
+
+.banner-section {
+    height: 100px;
+    background-color: lightgray;
+}
+
+.banner-section h1 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.banner-section p {
+    text-align: center;
+    padding-top: 5px;
+    color: gray;
+}
+
+.top-section {
+    height: 100px;
+    background-color:#37537a;
+}
+
+
+.row {
+    padding-top: 20px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.column-3 {
+    width: 33.3%;
+    height: 400px;
+    float: left;
+}
+
+.main-img {
+    height: 150px;
+    border-radius: 10px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.main-top-section .container .row:nth-child(1) > .column-3 .main-img {
+    background-image: url(img/profile.svg);
+}
+
+.main-top-section .container .row:nth-child(2) > .column-3 .main-img {
+    background-image: url(img/computer.svg)
+}
+
+.main-top-section .container .row:nth-child(3) > .column-3 .main-img {
+    background-image: url(img/doc.svg);
+}
+
+.column-3 h2 {
+    padding: 20px 0 20px 0;
+    color: lightgreen;
+    text-align: center;
+}
+
+.column-3 hr {
+    width: 20%;
+    position: relative;
+    left: 40%;
+}
+
+.column-3 p {
+    color: gray;
+    text-align: center;
+    padding-top: 20px;
+}
+
+hr {
+    width: 95%;
+    position: relative;
+    left: 2.5%;
+}
+
+.column-2 {
+    width: 50%;
+    height: 500px;
+    float: left;
+}
+
+.column-2 h1 {
+    padding: 20px 0 0 80px;
+}
+
+.column-2 p {
+    padding: 20px 0 20px 80px;
+    color: gray;
+}
+
+.column-2 a {
+    padding: 20px 0 0 80px;
+}
+
+footer {
+    height: 120px;
+    width: 100%;
+    background-color:lightgray;
+    float: left;
+}
+
+.footer-section-1 {
+    height: 100px;
+    width: 50%;
+    float: left;
+}
+
+.footer-section-1 h2 {
+    text-align: center;
+    line-height: 100px;
+}
+
+.footer-section-2 {
+    height: 100px;
+    width: 10%;
+    float: left;
+}
+
+.footer-section-3 {
+    height: 100px;
+    width: 15%;
+    float: left;
+}
+
+.footer-section-2 {
+    line-height: 100px;
+}
+
+.footer-section-2 p {
+    padding-left: 40px;
+    color: gray;
+}
+
+.footer-section-3 {
+    line-height: 100px;
+}
+
+.footer-section-4 {
+    height: 100px;
+    width: 25%;
+    float: left;
+}
+
+.footer-button {
+    background-color: lightgreen;
+    border-radius: 5px;
+    padding: 15px;
+    border-style: none;
+    color: white;
+    position: relative;
+    top: 25px;
+    right: 0px;
+}
+
+.help-button {
+    background-color: lightgreen;
+    border-radius: 5px;
+    padding: 5px;
+    border-style: none;
+    color: white;
+    position: fixed;
+    bottom: 0%;
+    right: 22%;
+}
+
+                            
